@@ -8,7 +8,12 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('Cookie', 'Cokie wiht coffee', 'http://delivery-menu.exteen.com/images/theme/donutmuffins_front.jpg'),
+    new Recipe('Hawaiian Pizza',
+    'My Hawaiian pizza',
+    'http://pizzahouse.nz/wp-content/uploads/2016/03/hawaiian-pizza.png'),
+    new Recipe('Baked Chicken Wings',
+    'My Chiken Wings',
+    'http://cf.yellowblissroad.com/wp-content/uploads/2015/02/Baked-Chicken-Wings.jpg'),
   ];
   constructor() { }
 
